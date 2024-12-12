@@ -13,19 +13,19 @@ function App() {
       element: <AppLayout/>,
       children:[
         {
-          path: '/react-router-revision1/',
+          path: '/react-router-revision1/react-router-revision1/',
           element: <Home/>
         },
         {
-          path: '/react-router-revision1/movies',
+          path: '/react-router-revision1/react-router-revision1/movies',
           element: <Movies/>
         },
         {
-          path: '/react-router-revision1/pokemons',
+          path: '/react-router-revision1/react-router-revision1/pokemons',
           element: <Pokemon/>
         },
         {
-          path: '/react-router-revision1/library',
+          path: '/react-router-revision1/react-router-revision1/library',
           element: <Books/>
         },
       ]
