@@ -18,9 +18,9 @@ const Header = () => {
         </div>
 
         <div className="hidden sm:flex sm:items-center border-b border-gray-600/40">
-          <NavLink to='/' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Home</NavLink>
-          <NavLink to='/movies' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Movies</NavLink>
-          <NavLink to='/pokemons' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Pokemons</NavLink>
+          <NavLink to='/react-router-revision1/' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Home</NavLink>
+          <NavLink to='/react-router-revision1/movies' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Movies</NavLink>
+          <NavLink to='/react-router-revision1/pokemons' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Pokemons</NavLink>
           <NavLink to='/library' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600">Library</NavLink>
         </div>
 
@@ -38,10 +38,10 @@ const Header = () => {
       
       <div className={`sm:hidden bg-black border-t-2 py-2 ${!toggle?'hidden':'visible'} `}>
         <div className="flex flex-col">
-          <NavLink to='/' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Home</NavLink>
-          <NavLink to='/movies' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Movies</NavLink>
-          <NavLink to='/pokemons' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Pokemons</NavLink>
-          <NavLink to='/library' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Library</NavLink>
+          <NavLink to='/react-router-revision1/' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Home</NavLink>
+          <NavLink to='/react-router-revision1/movies' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Movies</NavLink>
+          <NavLink to='/react-router-revision1/pokemons' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Pokemons</NavLink>
+          <NavLink to='/react-router-revision1/library' className="text-white/90 text-base font-semibold hover:text-purple-600 mb-1">Library</NavLink>
           <div className="flex justify-between items-center border-t-2 pt-2">
             <a href="#" className="text-white/90 text-base font-semibold hover:text-purple-600 mr-4">Sign in</a>
             <a href="#" className="text-white/90 text-base font-semibold border px-4 py-1 rounded-lg hover:text-purple-600 hover:border-purple-600">Sign up</a>
