@@ -9,23 +9,23 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/react-router-revision1/',
       element: <AppLayout/>,
       children:[
         {
-          path: '/',
+          path: '/react-router-revision1/',
           element: <Home/>
         },
         {
-          path: '/movies',
+          path: '/react-router-revision1/movies',
           element: <Movies/>
         },
         {
-          path: '/pokemons',
+          path: '/react-router-revision1/pokemons',
           element: <Pokemon/>
         },
         {
-          path: '/library',
+          path: '/react-router-revision1/library',
           element: <Books/>
         },
       ]
