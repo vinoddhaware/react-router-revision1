@@ -21,7 +21,7 @@ const Header = () => {
           <NavLink to='/react-router-revision1/' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Home</NavLink>
           <NavLink to='/react-router-revision1/movies' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Movies</NavLink>
           <NavLink to='/react-router-revision1/pokemons' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600 mr-4">Pokemons</NavLink>
-          <NavLink to='/library' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600">Library</NavLink>
+          <NavLink to='/react-router-revision1/library' className="text-white/90 text-base border-b border-transparent hover:border-purple-600 font-semibold hover:text-purple-600">Library</NavLink>
         </div>
 
         <div className="hidden sm:flex sm:items-center">
